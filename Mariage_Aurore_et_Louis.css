@@ -1,0 +1,189 @@
+p{
+    color: goldenrod;
+}
+
+h1{
+    color: goldenrod;
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    text-align:center;
+    margin:auto;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    background-color: white;
+}
+h2{
+    color: goldenrod;
+    /*font-family: 'Great Vibes', cursive;*/
+    font-size: 50px;
+    text-align:center;
+    margin:auto;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    background-color: white;
+}
+
+body{
+    /*background: linear-gradient(90deg, rgb(0, 255, 255), #2ebf4d);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1F5EAA;
+}
+header{
+    background-color: white;
+}
+
+.navbar{
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Pour répartir les liens sur la ligne */
+  }
+  
+li{
+    display: inline;
+}
+
+.Barre_nav {
+    text-decoration: none;
+    color: goldenrod;
+    padding: 10px;
+    display: inline-block;
+    margin-left: -5px;
+    margin-right: 5px;
+    background-color: white;
+    font-size: 20px;
+  }
+
+.Barre_nav:hover{
+    color : #1F5EAA
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+}
+.Pied{
+    color: goldenrod
+
+}
+
+div{
+    display:flex;
+    justify-content: center;
+}
+
+.Coeur{
+    margin-bottom: 5px;
+    border: 10px goldenrod solid;
+}
+
+.Chateau{
+    margin-top:20px;
+    border: 10px goldenrod solid;
+}
+
+.Programme_mariage{
+    margin-top:20px;
+    border: 10px goldenrod solid;
+}
+
+.Eglise{
+    margin-top:20px;
+    border: 10px goldenrod solid;
+}
+
+.Manoir{
+    margin-top:20px;
+    border: 10px goldenrod solid;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Text_1{
+    text-align: center;
+    color: goldenrod;
+    border: 10px goldenrod solid;
+    margin-left: 50px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.Text_2{
+    text-align: center;
+    color: goldenrod;
+    border: 10px goldenrod solid;
+    margin-right: 50px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.caption_coeur{
+    font-size: 20px;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.caption_chateau{
+    font-size: 20px;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.caption_programme{
+    font-size: 20px;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.caption_eglise{
+    font-size: 20px;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.caption_manoir{
+    font-size: 20px;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+
+.Adresse_eglise{
+    font-size: 20px;
+    color: goldenrod;
+    text-align: center;
+}
+
+.Adresse_manoir{
+    font-size: 20px;
+    color: goldenrod;
+    text-align: center;
+}
+
+.Texte_liste{
+    font-size: 20px;
+    color: goldenrod;
+    text-align: center;
+}
+
+.Lien_liste{
+    font-size: 20px;
+    color: goldenrod;
+    text-align: center;
+}
+
+.Lien_liste:hover{
+    color : white;
+}
